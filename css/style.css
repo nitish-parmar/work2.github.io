@@ -311,6 +311,9 @@ footer .footer-links li a:hover {
 }
 /*-------------------------------------Media Query-------------------------------*/
 @media (max-width: 480px) and (min-width: 320px){
+	.overflow{
+		overflow-x: hidden;
+	}
 	.carousel-caption{
 		background: rgb(40 39 39 / 50%) !important;
 		color: #fff !important;
