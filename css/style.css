@@ -74,7 +74,7 @@
 	border-radius: 4px;
 }
 .img_h{
-	height: 93vh;
+	height: 93vh !important;
 }
 .navbar-light .navbar-nav .nav-link {
 	color: #323944 !important;
