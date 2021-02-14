@@ -73,9 +73,6 @@
 	background-color: #C0A259;
 	border-radius: 4px;
 }
-.img_h{
-	height: 93vh !important;
-}
 .navbar-light .navbar-nav .nav-link {
 	color: #323944 !important;
 	font-weight: 600 !important;
@@ -314,6 +311,12 @@ footer .footer-links li a:hover {
 	.overflow{
 		overflow-x: hidden;
 	}
+	.p_hide{
+		display: none;
+	}
+	.Slide_center{
+		align-items: center;
+	}
 	.carousel-caption{
 		background: rgb(40 39 39 / 50%) !important;
 		color: #fff !important;
@@ -325,15 +328,17 @@ footer .footer-links li a:hover {
 		font-size: 20px !important;
     	margin: 0 5px;
 	}
+	.Slide2_Txt{
+		top: 36% !important;
+	}
 	.Slide3_Txt{
-		top: 43% !important;
+		top: 32% !important;
 	}
 	.header_bg .br li{
 		padding: 0px 6px;
 	}
 	.bannerwidth {
 		max-width: 100%;
-		height: -webkit-fill-available;
 		object-fit: cover;
 	}
 	.Welcome_head {
