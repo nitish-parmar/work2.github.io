@@ -4,6 +4,9 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+.bannerh{
+	height: 90vh;
+}
 .navbar-toggler{
 	margin: 0 10px;
 }
@@ -308,6 +311,9 @@ footer .footer-links li a:hover {
 }
 /*-------------------------------------Media Query-------------------------------*/
 @media (max-width: 480px) and (min-width: 320px){
+	.bannerh{
+	height: unset !important;
+	}
 	.overflow{
 		overflow-x: hidden;
 	}
